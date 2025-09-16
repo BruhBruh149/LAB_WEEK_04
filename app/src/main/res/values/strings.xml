@@ -4,8 +4,6 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="menu_coffee">Coffee List</string>
     <string name="menu_favorites">Favorite Coffee</string>
-
-    <!-- Coffee strings -->
     <string name="affogato_title">AFFOGATO</string>
     <string name="affogato_desc">Espresso poured on a vanilla ice cream. Served in a cappuccino cup.</string>
     <string name="americano_title">AMERICANO</string>
