@@ -3,12 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="30dp"
     tools:context=".CafeDetailFragment">
 
     <TextView
+        android:id="@+id/content_description"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Hello blank fragment"
-        android:gravity="center"
-        android:textSize="20sp"/>
+        android:layout_height="wrap_content"
+        android:textSize="16sp"/>
 </FrameLayout>
