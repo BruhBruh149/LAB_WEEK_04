@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/listFragment"
         android:name="com.example.lab_week_04.ListFragment"
-        android:label="Coffee List"
+        android:label="List"
         tools:layout="@layout/fragment_list">
         <action
             android:id="@+id/action_listFragment_to_detailFragment"
@@ -21,14 +21,20 @@
         android:label="Favorites"
         tools:layout="@layout/fragment_favorites" >
         <action
-            android:id="@+id/action_favoritesFragment_to_listFragment"
+            android:id="@+id/action_favoritesFragment_to_listFragment2"
             app:destination="@id/listFragment" />
     </fragment>
 
     <fragment
         android:id="@+id/detailFragment"
         android:name="com.example.lab_week_04.DetailFragment"
-        android:label="Coffee Detail"
+        android:label="Detail"
         tools:layout="@layout/fragment_detail" />
+
+    <fragment
+        android:id="@+id/cafeFragment"
+        android:name="com.example.lab_week_04.CafeFragment"
+        android:label="Cafe"
+        tools:layout="@layout/fragment_cafe" />
 
 </navigation>
