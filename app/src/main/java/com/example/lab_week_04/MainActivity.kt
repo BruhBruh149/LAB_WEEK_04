@@ -21,8 +21,6 @@ class MainActivity : AppCompatActivity() {
 
         val navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostFragment
         val navController = navHostFragment.navController
-
-        // Creating top level destinations and adding them to the drawer
         appBarConfiguration = AppBarConfiguration(
             setOf(R.id.listFragment, R.id.favoritesFragment, R.id.cafeFragment),
             findViewById(R.id.drawer_layout)
@@ -30,8 +28,6 @@ class MainActivity : AppCompatActivity() {
 
         setupActionBarWithNavController(navController, appBarConfiguration)
         findViewById<NavigationView>(R.id.nav_view)?.setupWithNavController(navController)
-
-        // Setup bottom navigation
         findViewById<BottomNavigationView>(R.id.bottom_nav)?.setupWithNavController(navController)
     }
 
